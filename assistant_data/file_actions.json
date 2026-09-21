@@ -1,0 +1,2786 @@
+[
+  {
+    "timestamp": "2026-09-20T13:46:48.518760",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\College\\college_assignment.docx",
+    "category": "College",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [College] (99%) | Semantic match for 'College' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'College/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.523482",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Bills\\electricity_bill.pdf",
+    "category": "Bills",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Bills] (99%) | Semantic match for 'Bills' (Score: 6.0)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Bills/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.528382",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Personal\\IMG_1234.jpg",
+    "category": "Personal",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.537692",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Invoices\\invoice123_1.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": true,
+    "final_filename": "invoice123_1.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 3.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "RENAMED: 'invoice123.pdf' -> 'invoice123_1.pdf' (Collision in Invoices/ resolved via suffix _1)"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123_1.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.545086",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Personal\\movie.mp4",
+    "category": "Personal",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (60%) | Semantic match for 'Personal' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.549222",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Projects\\python_project.zip",
+    "category": "Projects",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Projects] (99%) | Semantic match for 'Projects' (Score: 6.0)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Projects/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.554447",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Reports\\report.xlsx",
+    "category": "Reports",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Reports] (60%) | Semantic match for 'Reports' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Reports/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.563880",
+    "batch_id": "993cb904",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_t1ly3mpw\\Personal\\resume_final.docx",
+    "category": "Personal",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.699077",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\College\\college_assignment.docx",
+    "category": "College",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [College] (99%) | Semantic match for 'College' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'College/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.705160",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Bills\\electricity_bill.pdf",
+    "category": "Bills",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Bills] (99%) | Semantic match for 'Bills' (Score: 6.0)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Bills/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.711875",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Personal\\IMG_1234.jpg",
+    "category": "Personal",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.717600",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Invoices\\invoice123.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 3.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.725630",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Personal\\movie.mp4",
+    "category": "Personal",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (60%) | Semantic match for 'Personal' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.734654",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Projects\\python_project.zip",
+    "category": "Projects",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Projects] (99%) | Semantic match for 'Projects' (Score: 6.0)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Projects/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.744657",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Reports\\report.xlsx",
+    "category": "Reports",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Reports] (60%) | Semantic match for 'Reports' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Reports/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.762596",
+    "batch_id": "89b776ec",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_r1y3c4k2\\Personal\\resume_final.docx",
+    "category": "Personal",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.790372",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\Word\\college_assignment.docx",
+    "category": "Word",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Word] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Word/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.803497",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\PDFs\\electricity_bill.pdf",
+    "category": "PDFs",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [PDFs] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'PDFs/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.813683",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\Images\\IMG_1234.jpg",
+    "category": "Images",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Images] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Images/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.822801",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\PDFs\\invoice123.pdf",
+    "category": "PDFs",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [PDFs] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'PDFs/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.831605",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\Videos\\movie.mp4",
+    "category": "Videos",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Videos] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Videos/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.838159",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\ZIP\\python_project.zip",
+    "category": "ZIP",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [ZIP] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'ZIP/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.849090",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\Excel\\report.xlsx",
+    "category": "Excel",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Excel] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Excel/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.857009",
+    "batch_id": "76a4b03c",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_el4jk2gv\\Word\\resume_final.docx",
+    "category": "Word",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Word] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Word/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:46:48.913708",
+    "batch_id": "unit_test_batch",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\pipeline_test_zkuhouxk\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\pipeline_test_zkuhouxk\\Invoices\\invoice123.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "4abbe3e42662d57bc369ad227f94546b5eadf87a089c2495535c5316cc1e2b6b",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 3.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 4abbe3e426...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:11.979705",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\College\\college_assignment.docx",
+    "category": "College",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [College] (99%) | Semantic match for 'College' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'College/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:11.999022",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Bills\\electricity_bill.pdf",
+    "category": "Bills",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Electricity Utility Bill: Account 98765. Due date: Oct 1...' | Clues: Bills:bill, Bills:electricity, Bills:utility"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Bills] (99%) | Semantic match for 'Bills' (Score: 9.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Bills/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.011132",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Personal\\IMG_1234.jpg",
+    "category": "Personal",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary image data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.023707",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Invoices\\invoice123_1.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": true,
+    "final_filename": "invoice123_1.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Invoice #123 for services rendered. Total: $450.00...' | Clues: Invoices:invoice"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 4.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "RENAMED: 'invoice123.pdf' -> 'invoice123_1.pdf' (Collision in Invoices/ resolved via suffix _1)"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123_1.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.036749",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Personal\\movie.mp4",
+    "category": "Personal",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary video data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (60%) | Semantic match for 'Personal' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.049370",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Projects\\python_project.zip",
+    "category": "Projects",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Compressed archive containing python source files]...' | Clues: Projects:python, Projects:source"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Projects] (99%) | Semantic match for 'Projects' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Projects/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.059741",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Reports\\report.xlsx",
+    "category": "Reports",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Reports] (60%) | Semantic match for 'Reports' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Reports/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.071531",
+    "batch_id": "14cd5f88",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_cyzezc9e\\Personal\\resume_final.docx",
+    "category": "Personal",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.238480",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\College\\college_assignment.docx",
+    "category": "College",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [College] (99%) | Semantic match for 'College' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'College/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.250136",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Bills\\electricity_bill.pdf",
+    "category": "Bills",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Electricity Utility Bill: Account 98765. Due date: Oct 1...' | Clues: Bills:bill, Bills:electricity, Bills:utility"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Bills] (99%) | Semantic match for 'Bills' (Score: 9.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Bills/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.260477",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Personal\\IMG_1234.jpg",
+    "category": "Personal",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary image data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.269781",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Invoices\\invoice123.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Invoice #123 for services rendered. Total: $450.00...' | Clues: Invoices:invoice"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 4.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.282662",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Personal\\movie.mp4",
+    "category": "Personal",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary video data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (60%) | Semantic match for 'Personal' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.296315",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Projects\\python_project.zip",
+    "category": "Projects",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Compressed archive containing python source files]...' | Clues: Projects:python, Projects:source"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Projects] (99%) | Semantic match for 'Projects' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Projects/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.304516",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Reports\\report.xlsx",
+    "category": "Reports",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Reports] (60%) | Semantic match for 'Reports' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Reports/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.317952",
+    "batch_id": "ed7eb4fc",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_xklp0jod\\Personal\\resume_final.docx",
+    "category": "Personal",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.352335",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\Word\\college_assignment.docx",
+    "category": "Word",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Word] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Word/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.366518",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\PDFs\\electricity_bill.pdf",
+    "category": "PDFs",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Electricity Utility Bill: Account 98765. Due date: Oct 1...' | Clues: Bills:bill, Bills:electricity, Bills:utility"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [PDFs] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'PDFs/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.380632",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\Images\\IMG_1234.jpg",
+    "category": "Images",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary image data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Images] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Images/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.404172",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\PDFs\\invoice123.pdf",
+    "category": "PDFs",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Invoice #123 for services rendered. Total: $450.00...' | Clues: Invoices:invoice"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [PDFs] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'PDFs/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.416855",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\Videos\\movie.mp4",
+    "category": "Videos",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary video data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Videos] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Videos/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.430994",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\ZIP\\python_project.zip",
+    "category": "ZIP",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Compressed archive containing python source files]...' | Clues: Projects:python, Projects:source"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [ZIP] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'ZIP/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.444320",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\Excel\\report.xlsx",
+    "category": "Excel",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Excel] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Excel/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.454216",
+    "batch_id": "b822dfcd",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\org_test_p0qif2be\\Word\\resume_final.docx",
+    "category": "Word",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 1.0,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Type | Category: [Word] (Confidence: 100%)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Word/resume_final.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:12.503330",
+    "batch_id": "unit_test_batch",
+    "original_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\pipeline_test_c4ih9wna\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICS~1\\AppData\\Local\\Temp\\pipeline_test_c4ih9wna\\Invoices\\invoice123.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "4abbe3e42662d57bc369ad227f94546b5eadf87a089c2495535c5316cc1e2b6b",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Invoice details for customer ABC. Total: $120.00...' | Clues: Invoices:invoice"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 4.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 4abbe3e426...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.328165",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\college_assignment.docx",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\College\\college_assignment.docx",
+    "category": "College",
+    "extension": ".docx",
+    "sha256": "9be7f772f9609bb43b16c7d5b4527ea6cd00e2a14b0734c1fa9ff287a00a75aa",
+    "was_renamed": false,
+    "final_filename": "college_assignment.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'college_assignment.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['college', 'assignment'] | Matches: College:regex((?:college|school|univ)[-_]?), College:regex(assignment[-_]?\\d*), College:token(college), College:token(assignment)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [College] (99%) | Semantic match for 'College' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 9be7f772f9...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'college_assignment.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'College/college_assignment.docx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.351456",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\electricity_bill.pdf",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Bills\\electricity_bill.pdf",
+    "category": "Bills",
+    "extension": ".pdf",
+    "sha256": "ffcc3cf559aea93610e545a986934e7dea0c24a017d68975ffdbc3269e156087",
+    "was_renamed": false,
+    "final_filename": "electricity_bill.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'electricity_bill.pdf' (0.1 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['electricity', 'bill'] | Matches: Bills:regex((?:electricity|water|wifi|gas|utility)[-_]?bill), Bills:token(electricity), Bills:token(bill)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Electricity Utility Bill: Account 98765. Due date: Oct 1...' | Clues: Bills:bill, Bills:electricity, Bills:utility"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Bills] (99%) | Semantic match for 'Bills' (Score: 9.6)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: ffcc3cf559...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'electricity_bill.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Bills/electricity_bill.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.378818",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\IMG_1234.jpg",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Personal\\IMG_1234.jpg",
+    "category": "Personal",
+    "extension": ".jpg",
+    "sha256": "1b845579ef8efa29cfac1a79d2321551068f2a735d849a7de31fc0fbe9c20ab3",
+    "was_renamed": false,
+    "final_filename": "IMG_1234.jpg",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'IMG_1234.jpg' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.jpg' -> Base type category: [Images]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['img', '1234'] | Matches: Personal:regex(img[-_]?\\d+), Personal:token(img)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary image data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 1b845579ef...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'IMG_1234.jpg'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/IMG_1234.jpg'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.414843",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\invoice123.pdf",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Invoices\\invoice123.pdf",
+    "category": "Invoices",
+    "extension": ".pdf",
+    "sha256": "dd145db3ad5864b0267bb379259bb37455511b00e65267051268ba65c10a32f5",
+    "was_renamed": false,
+    "final_filename": "invoice123.pdf",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'invoice123.pdf' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.pdf' -> Base type category: [PDFs]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['invoice123'] | Matches: Invoices:regex(inv(?:oice)?[-_]?\\d+), Invoices:substr(invoice)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: 'Invoice #123 for services rendered. Total: $450.00...' | Clues: Invoices:invoice"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Invoices] (99%) | Semantic match for 'Invoices' (Score: 4.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: dd145db3ad...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'invoice123.pdf'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Invoices/invoice123.pdf'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.431876",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\movie.mp4",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Personal\\movie.mp4",
+    "category": "Personal",
+    "extension": ".mp4",
+    "sha256": "06989a5054cd3a404319649bbd702392c00b27fae5af96e4f10f0cedbe62de29",
+    "was_renamed": false,
+    "final_filename": "movie.mp4",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'movie.mp4' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.mp4' -> Base type category: [Videos]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['movie'] | Matches: Personal:token(movie)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Binary video data]...' | Clues: Content parsed (no distinct keywords)"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (60%) | Semantic match for 'Personal' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: 06989a5054...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'movie.mp4'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/movie.mp4'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.446197",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\python_project.zip",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Projects\\python_project.zip",
+    "category": "Projects",
+    "extension": ".zip",
+    "sha256": "b29cbddb8737266d8aaf3b68a2804cfccf5d8921466bb53a9948a53d219c1b07",
+    "was_renamed": false,
+    "final_filename": "python_project.zip",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'python_project.zip' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.zip' -> Base type category: [ZIP]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['python', 'project'] | Matches: Projects:regex((?:python|react|java|node)[-_]?project), Projects:token(python), Projects:token(project)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '[Compressed archive containing python source files]...' | Clues: Projects:python, Projects:source"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Projects] (99%) | Semantic match for 'Projects' (Score: 8.4)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: b29cbddb87...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'python_project.zip'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Projects/python_project.zip'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.459138",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\report.xlsx",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Reports\\report.xlsx",
+    "category": "Reports",
+    "extension": ".xlsx",
+    "sha256": "abb2761d4946eca5651e0fa77b294c3ffa6ea5508daf1f3af78e5869439507a0",
+    "was_renamed": false,
+    "final_filename": "report.xlsx",
+    "is_duplicate": false,
+    "confidence": 0.6,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'report.xlsx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.xlsx' -> Base type category: [Excel]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['report'] | Matches: Projects:substr(repo), Reports:token(report)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Reports] (60%) | Semantic match for 'Reports' (Score: 1.8)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: abb2761d49...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'report.xlsx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Reports/report.xlsx'"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-20T13:47:41.478330",
+    "batch_id": "5b5d24a5",
+    "original_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\resume_final.docx",
+    "destination_path": "C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_downloads\\Personal\\resume_final.docx",
+    "category": "Personal",
+    "extension": ".docx",
+    "sha256": "db9036a80f1a71d9bb6ce1387c71945219f7cd59e2e647a9538f2a3fbfdebea7",
+    "was_renamed": false,
+    "final_filename": "resume_final.docx",
+    "is_duplicate": false,
+    "confidence": 0.99,
+    "dry_run": false,
+    "trace": [
+      {
+        "step": "Step 1: File Ingestion",
+        "detail": "Target file discovered: 'resume_final.docx' (0.0 KB)"
+      },
+      {
+        "step": "Step 2: Extension Detection",
+        "detail": "Detected extension '.docx' -> Base type category: [Word]"
+      },
+      {
+        "step": "Step 3: Filename Analysis",
+        "detail": "Tokens: ['resume', 'final'] | Matches: Personal:regex(resume[-_]?(?:final|v\\d+)?), Personal:token(resume)"
+      },
+      {
+        "step": "Step 4: Content Analysis",
+        "detail": "Snippet sample: '...' | Clues: Binary/Non-textual file"
+      },
+      {
+        "step": "Step 5: Category Prediction",
+        "detail": "Mode: Smart | Category: [Personal] (99%) | Semantic match for 'Personal' (Score: 4.2)"
+      },
+      {
+        "step": "Step 6: Duplicate Check",
+        "detail": "Unique file verified (SHA-256: db9036a80f...)"
+      },
+      {
+        "step": "Step 7: Rename if Required",
+        "detail": "No collision detected. Retaining original filename 'resume_final.docx'"
+      },
+      {
+        "step": "Step 8: Move Execution",
+        "detail": "Relocated successfully -> 'Personal/resume_final.docx'"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "morning_setup": {
+    "description": "Opens daily news, checks local weather, and reviews system health.",
+    "steps": [
+      "open website https://news.google.com",
+      "what is the weather in Delhi",
+      "check system performance"
+    ]
+  },
+  "clean_workspace": {
+    "description": "Organizes messy downloads, cleans temp caches, and reports disk stats.",
+    "steps": [
+      "organize my downloads folder",
+      "clean temporary files",
+      "check system performance"
+    ]
+  },
+  "dev_session": {
+    "description": "Launches developer environment (VS Code & Terminal) and monitors hardware.",
+    "steps": [
+      "start visual studio code",
+      "open terminal console",
+      "check system performance"
+    ]
+  }
+}

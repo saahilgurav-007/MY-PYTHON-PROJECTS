@@ -1,0 +1,432 @@
+[
+  {
+    "timestamp": "2026-09-20T13:24:56.776900",
+    "command": "open website https://news.google.com",
+    "intent": "open_url",
+    "confidence": 0.831,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 5.2,
+    "details": "[DRY RUN] Would open URL: https://news.google.com"
+  },
+  {
+    "timestamp": "2026-09-20T13:24:58.271323",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 1491.44,
+    "details": "Weather in Delhi, India: 33.9\u00b0C, Clear sky \u2600\ufe0f (Humidity: 44%, Wind: 1.9 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:25:01.759693",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 3486.79,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 19.0%\n  \u2022 Memory: 5.7 GB / 7.7 GB (74.5% used)\n  \u2022 Disk Space: 370.4 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:25:01.765883",
+    "command": "run morning routine",
+    "intent": "run_routine",
+    "confidence": 0.724,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 4996.95,
+    "details": "Executed routine 'morning_setup' (3 steps):\n  Step 1: open website https://news.google.com -> OK\n  Step 2: what is the weather in Delhi -> OK\n  Step 3: check system performance -> OK"
+  },
+  {
+    "timestamp": "2026-09-20T13:26:44.096202",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2986.19,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 3.0%\n  \u2022 Memory: 5.8 GB / 7.7 GB (75.4% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:14.443653",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 3154.77,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 14.0%\n  \u2022 Memory: 5.9 GB / 7.7 GB (76.0% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:16.041516",
+    "command": "list running processes",
+    "intent": "list_processes",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 1096.02,
+    "details": "Top Active Processes by Memory:\n  [12016] chrome: 385.1 MB\n  [2804] Memory Compression: 382.0 MB\n  [3112] chrome: 339.6 MB\n  [4248] chrome: 297.5 MB\n  [10904] Antigravity: 297.4 MB\n  [9028] explorer: 295.8 MB\n  [1204] chrome: 273.7 MB\n  [5256] mc-fw-host: 266.8 MB"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:16.581642",
+    "command": "organize files in \"C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_sandbox\"",
+    "intent": "organize_files",
+    "confidence": 0.772,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 18.93,
+    "details": "Successfully organized 7 files in 'C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_sandbox' into category folders."
+  },
+  {
+    "timestamp": "2026-09-20T13:27:19.123703",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2038.63,
+    "details": "Weather in Delhi, India: 33.9\u00b0C, Clear sky \u2600\ufe0f (Humidity: 44%, Wind: 1.9 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:19.877028",
+    "command": "summarize Artificial Intelligence on wikipedia",
+    "intent": "wiki_summary",
+    "confidence": 0.715,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 249.29,
+    "details": "Artificial intelligence: Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and co"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:20.486566",
+    "command": "convert 100 USD to INR",
+    "intent": "currency_convert",
+    "confidence": 1.0,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 106.67,
+    "details": "100.0 USD = 9,594.03 INR (Rate: 1 USD = 95.9403 INR)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:21.110695",
+    "command": "clean temporary files",
+    "intent": "cleanup_temp",
+    "confidence": 1.0,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 119.92,
+    "details": "Would remove 59 temp files, reclaiming 0.5 MB."
+  },
+  {
+    "timestamp": "2026-09-20T13:27:21.696337",
+    "command": "open website https://news.google.com",
+    "intent": "open_url",
+    "confidence": 0.831,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 53.34,
+    "details": "[DRY RUN] Would open URL: https://news.google.com"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:23.193557",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 1468.47,
+    "details": "Weather in Delhi, India: 33.9\u00b0C, Clear sky \u2600\ufe0f (Humidity: 44%, Wind: 1.9 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:28.758198",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 5555.35,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 0.0%\n  \u2022 Memory: 0 GB / 0 GB (0% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:27:28.772801",
+    "command": "run morning routine",
+    "intent": "run_routine",
+    "confidence": 0.724,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 7146.62,
+    "details": "Executed routine 'morning_setup' (3 steps):\n  Step 1: open website https://news.google.com -> OK\n  Step 2: what is the weather in Delhi -> OK\n  Step 3: check system performance -> OK"
+  },
+  {
+    "timestamp": "2026-09-20T13:36:08.519054",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 3330.93,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 0.0%\n  \u2022 Memory: 5.7 GB / 7.7 GB (73.5% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:36:25.667157",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2316.12,
+    "details": "Weather in Delhi, India: 34.0\u00b0C, Clear sky \u2600\ufe0f (Humidity: 43%, Wind: 1.7 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:36:46.766522",
+    "command": "convert 100 USD to INR",
+    "intent": "currency_convert",
+    "confidence": 1.0,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 533.4,
+    "details": "100.0 USD = 9,594.03 INR (Rate: 1 USD = 95.9403 INR)"
+  },
+  {
+    "timestamp": "2026-09-20T13:36:59.168733",
+    "command": "summarize Artificial Intelligence on wikipedia",
+    "intent": "wiki_summary",
+    "confidence": 0.715,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 822.76,
+    "details": "Artificial intelligence: Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and co"
+  },
+  {
+    "timestamp": "2026-09-20T13:37:40.893862",
+    "command": "python run_assistant.py \"organize my downloads folder\" --dry-run",
+    "intent": "organize_files",
+    "confidence": 0.847,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 150.98,
+    "details": "Successfully organized 83 files in 'C:\\Users\\MAGICSHOP\\Downloads' into category folders."
+  },
+  {
+    "timestamp": "2026-09-20T13:37:46.775001",
+    "command": "python run_assistant.py \"organize my downloads folder\" --dry-run",
+    "intent": "organize_files",
+    "confidence": 0.847,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 2.58,
+    "details": "Would organize 0 files in 'C:\\Users\\MAGICSHOP\\Downloads' into category folders."
+  },
+  {
+    "timestamp": "2026-09-20T13:38:03.635759",
+    "command": "open website https://news.google.com",
+    "intent": "open_url",
+    "confidence": 0.831,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 295.14,
+    "details": "Opened https://news.google.com in your default browser."
+  },
+  {
+    "timestamp": "2026-09-20T13:38:06.281931",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2644.1,
+    "details": "Weather in Delhi, India: 34.0\u00b0C, Clear sky \u2600\ufe0f (Humidity: 43%, Wind: 1.7 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:38:11.582278",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 5293.25,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 0.0%\n  \u2022 Memory: 0 GB / 0 GB (0% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:38:11.590358",
+    "command": "python run_assistant.py \"run morning routine\"",
+    "intent": "run_routine",
+    "confidence": 0.651,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 8252.47,
+    "details": "Executed routine 'morning_setup' (3 steps):\n  Step 1: open website https://news.google.com -> OK\n  Step 2: what is the weather in Delhi -> OK\n  Step 3: check system performance -> OK"
+  },
+  {
+    "timestamp": "2026-09-20T13:38:35.618943",
+    "command": "python run_assistant.py \"what is the weather in Delhi\"",
+    "intent": "weather_query",
+    "confidence": 0.95,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2124.12,
+    "details": "Weather in Teresina, Brazil: 24.8\u00b0C, Clear sky \u2600\ufe0f (Humidity: 78%, Wind: 6.0 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:38:38.178847",
+    "command": "python run_assistant.py \"what is the weather in Delhi\"",
+    "intent": "weather_query",
+    "confidence": 0.95,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2341.68,
+    "details": "Weather in Teresina, Brazil: 24.8\u00b0C, Clear sky \u2600\ufe0f (Humidity: 78%, Wind: 6.0 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:12.298283",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2174.76,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 26.0%\n  \u2022 Memory: 5.9 GB / 7.7 GB (76.2% used)\n  \u2022 Disk Space: 370.1 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:13.693199",
+    "command": "list running processes",
+    "intent": "list_processes",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 888.38,
+    "details": "Top Active Processes by Memory:\n  [2804] Memory Compression: 416.3 MB\n  [12016] chrome: 384.8 MB\n  [10904] Antigravity: 330.8 MB\n  [4248] chrome: 285.6 MB\n  [9028] explorer: 281.7 MB\n  [1204] chrome: 267.8 MB\n  [5256] mc-fw-host: 259.2 MB\n  [4724] chrome: 203.3 MB"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:14.283776",
+    "command": "organize files in \"C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_sandbox\"",
+    "intent": "organize_files",
+    "confidence": 0.772,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 55.61,
+    "details": "Successfully organized 7 files in 'C:\\Users\\MAGICSHOP\\OneDrive\\SAAHIL IT\\Antigravity Projects\\assistant_data\\demo_sandbox' into category folders."
+  },
+  {
+    "timestamp": "2026-09-20T13:39:17.399068",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 2603.95,
+    "details": "Weather in Delhi, India: 34.0\u00b0C, Clear sky \u2600\ufe0f (Humidity: 43%, Wind: 1.7 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:18.630888",
+    "command": "summarize Artificial Intelligence on wikipedia",
+    "intent": "wiki_summary",
+    "confidence": 0.715,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 727.32,
+    "details": "Artificial intelligence: Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and co"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:19.562356",
+    "command": "convert 100 USD to INR",
+    "intent": "currency_convert",
+    "confidence": 1.0,
+    "status": "SUCCESS",
+    "dry_run": false,
+    "duration_ms": 423.37,
+    "details": "100.0 USD = 9,594.03 INR (Rate: 1 USD = 95.9403 INR)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:20.076786",
+    "command": "clean temporary files",
+    "intent": "cleanup_temp",
+    "confidence": 1.0,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 5.39,
+    "details": "Would remove 59 temp files, reclaiming 0.5 MB."
+  },
+  {
+    "timestamp": "2026-09-20T13:39:20.604866",
+    "command": "open website https://news.google.com",
+    "intent": "open_url",
+    "confidence": 0.831,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 5.67,
+    "details": "[DRY RUN] Would open URL: https://news.google.com"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:22.553425",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 1937.46,
+    "details": "Weather in Delhi, India: 34.0\u00b0C, Clear sky \u2600\ufe0f (Humidity: 43%, Wind: 1.7 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:24.779029",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 2217.45,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 0.0%\n  \u2022 Memory: 5.9 GB / 7.7 GB (76.0% used)\n  \u2022 Disk Space: 370.2 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:39:24.785264",
+    "command": "run morning routine",
+    "intent": "run_routine",
+    "confidence": 0.724,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 4198.69,
+    "details": "Executed routine 'morning_setup' (3 steps):\n  Step 1: open website https://news.google.com -> OK\n  Step 2: what is the weather in Delhi -> OK\n  Step 3: check system performance -> OK"
+  },
+  {
+    "timestamp": "2026-09-20T13:40:17.099345",
+    "command": "open website https://news.google.com",
+    "intent": "open_url",
+    "confidence": 0.831,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 1.75,
+    "details": "[DRY RUN] Would open URL: https://news.google.com"
+  },
+  {
+    "timestamp": "2026-09-20T13:40:18.496440",
+    "command": "what is the weather in Delhi",
+    "intent": "weather_query",
+    "confidence": 0.961,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 1389.52,
+    "details": "Weather in Delhi, India: 34.0\u00b0C, Clear sky \u2600\ufe0f (Humidity: 43%, Wind: 1.7 km/h)"
+  },
+  {
+    "timestamp": "2026-09-20T13:40:20.724296",
+    "command": "check system performance",
+    "intent": "system_stats",
+    "confidence": 0.833,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 2218.79,
+    "details": "System Health Summary:\n  \u2022 CPU Usage: 40.0%\n  \u2022 Memory: 5.9 GB / 7.7 GB (76.0% used)\n  \u2022 Disk Space: 370.1 GB free of 476.0 GB (22.2% used)"
+  },
+  {
+    "timestamp": "2026-09-20T13:40:20.729432",
+    "command": "run morning routine",
+    "intent": "run_routine",
+    "confidence": 0.724,
+    "status": "SUCCESS",
+    "dry_run": true,
+    "duration_ms": 3633.8,
+    "details": "Executed routine 'morning_setup' (3 steps):\n  Step 1: open website https://news.google.com -> OK\n  Step 2: what is the weather in Delhi -> OK\n  Step 3: check system performance -> OK"
+  }
+]
